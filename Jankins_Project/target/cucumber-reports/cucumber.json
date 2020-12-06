@@ -1,0 +1,106 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "User able to successfully login \u0026 Verify the home page",
+        "description": "",
+        "id": "zoopla-users-can-buy-the-property-\u0026-sell-the-property;user-able-to-successfully-login-\u0026-verify-the-home-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 16151632200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "As a user able to open any browser",
+            "match": {
+              "location": "LoginStefDefination.as_a_user_able_to_open_any_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1878560300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "As a user able to enter URL",
+            "match": {
+              "location": "LoginStefDefination.as_a_user_able_to_enter_URL()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2203755600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "As a user i can click on signin button",
+            "match": {
+              "location": "LoginStefDefination.as_a_user_i_can_click_on_signin_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 466363200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "As a user i can enter username \u0026 password",
+            "match": {
+              "location": "LoginStefDefination.as_a_user_i_can_enter_username_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 875925200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "As a user i can click on login button",
+            "match": {
+              "location": "LoginStefDefination.as_a_user_i_can_click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 61145700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "As a user i can verify the homepage",
+            "match": {
+              "location": "LoginStefDefination.as_a_user_i_can_verify_the_homepage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 636712900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Close the browser",
+            "match": {
+              "location": "LoginStefDefination.close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Zoopla users can buy the property \u0026 sell the property",
+    "description": "",
+    "id": "zoopla-users-can-buy-the-property-\u0026-sell-the-property",
+    "keyword": "Feature",
+    "uri": "LoginTestCases.feature"
+  }
+]
