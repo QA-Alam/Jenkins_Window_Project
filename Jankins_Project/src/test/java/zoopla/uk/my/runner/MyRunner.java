@@ -4,7 +4,8 @@ import cucumber.api.CucumberOptions;
 import cucumber.api.testng.AbstractTestNGCucumberTests;
 
 @CucumberOptions(
-		plugin= {"pretty","json:target/cucumber-reports/cucumber.json"},
+	plugin= {"pretty","json:target/cucumber-reports/cucumber.json", 
+			 "json:target/cucumber.json" }, 
 	//Location of folder
 	features = "Cucumber_Features", 		
     // Location of step definition
